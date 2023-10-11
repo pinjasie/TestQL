@@ -39,7 +39,8 @@ let data = JSON.parse(fs.readFileSync('data.json'));
 const existingData = JSON.parse(fs.readFileSync('data.json'));
 const root = {
   clothing: (args) => data.find(item => item.id === args.id), // query for clothing by ID
-  clothingByType: (args) => data.filter(item => item.type === args.type), // query for clothing by type
+  clothingByName: (args) => data.find(item => item.name.toLowerCase() === args.name.toLowerCase()), // query for clothing by name
+  clothingByType: (args) => data.filter(item => item.type === args.type.toLowerCase()), // query for clothing by type
   allClothing: () => data, // query for all clothing items
   addClothing: (args) => { // function for adding one or several clothes
     const newClothingItems = args.clothing.map(clothingItem => {
