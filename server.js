@@ -32,7 +32,7 @@ const schema = buildSchema(`
 `);
 
 
-// Simuloidaan tietokantaa JSON-tiedoston avulla
+// Simulated database with JSON-file
 let data = JSON.parse(fs.readFileSync('data.json'));
 
 // Definition of resolvers and mutations
