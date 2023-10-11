@@ -1,0 +1,19 @@
+[
+    { "id": 1, "name": "cardigan", "type": "jackets" },
+    { "id": 2, "name": "jeans, blue", "type": "bottoms" },
+    { "id": 3, "name": "t-shirt", "type": "tops" },
+    { "id": 4, "name": "jeans, grey", "type": "bottoms" },
+    { "id": 5, "name": "jeans, black", "type": "bottoms" },
+    { "id": 6, "name": "jeans, white", "type": "bottoms" },
+    { "id": 7, "name": "sweater", "type": "jackets" },
+    { "id": 8, "name": "pullover", "type": "jackets" },
+    { "id": 9, "name": "hoodie", "type": "jackets" },
+    { "id": 10, "name": "denim jacket", "type": "jackets" },
+    { "id": 11, "name": "hat", "type": "accessories" },
+    { "id": 12, "name": "gloves", "type": "accessories" },
+    { "id": 13, "name": "belt", "type": "accessories" },
+    { "id": 14, "name": "socks", "type": "accessories" },
+    { "id": 15, "name": "shirt, 3/4 sleeves", "type": "tops" },
+    { "id": 16, "name": "sweatpants", "type": "bottoms" }
+  ]
+  
